@@ -43,9 +43,9 @@
   $forecast = json_decode(file_get_contents($forecast), true);
 
 // test array
-        echo '<pre>';
-        print_r($forecast);
-        echo '</pre>';
+ //       echo '<pre>';
+ //       print_r($forecast);
+ //       echo '</pre>';
       
       $humidity_current = $forecast["currently"]["humidity"]*100;
 

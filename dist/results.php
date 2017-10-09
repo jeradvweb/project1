@@ -3,7 +3,7 @@
 	include 'app/forecast.php';
  ?>
 
-		<div class="container py-5">
+		<div class="container py-5 gametablebg text-white text-center">
 			<h1 class="display-1">Results</h1>
 			
 			
