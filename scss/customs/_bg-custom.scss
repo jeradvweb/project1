@@ -14,3 +14,32 @@
 	min-height: 1000px;
 }
 
+.switch {
+	background-image: url(../../dist/images/switch.png);
+	background-size: 100%
+	
+	
+}
+
+.switchcontainer {
+	min-height: 500px;
+}
+
+.movedown {
+	padding-top: 132px;
+	background-position: relative;
+}
+
+.searchbarbg {
+	background-image: url(../../dist/images/searchbar.jpg);
+	background-size: cover;
+}
+
+.searchbargobg {
+	background-image: url(../../dist/images/searchbargo.jpg);
+	background-size: cover;
+}
+.searchtypewhite {
+	color: white;
+	
+}
