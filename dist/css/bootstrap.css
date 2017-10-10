@@ -8423,6 +8423,13 @@ a.text-dark:focus, a.text-dark:hover {
   min-height: 1000px;
 }
 
+.gametablebg2 {
+  background-image: url(../../dist/images/woodbg2.jpg);
+  background-size: cover;
+  min-width: 100%;
+  min-height: 1000px;
+}
+
 .switch {
   background: url(../../dist/images/switch.png) center center;
   background-size: cover;
@@ -8449,4 +8456,12 @@ a.text-dark:focus, a.text-dark:hover {
 
 .searchtypewhite {
   color: white;
+}
+
+.shadowbox {
+  box-shadow: 2px 2px 5px 5px #000;
+}
+
+.shadowboxinner {
+  box-shadow: inset 2px 2px 5px 3px #170d02;
 }
