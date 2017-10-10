@@ -8,15 +8,15 @@
 }
 
 .gametablebg {
-	background-image: url(../../dist/images/woodbg.jpg);
+	background-image: url(../../dist/images/woodbg.jpg) ;
 	background-size: cover;
 	min-width: 100%;
 	min-height: 1000px;
 }
 
 .switch {
-	background-image: url(../../dist/images/switch.png);
-	background-size: 100%
+	background: url(../../dist/images/switch.png) center center;
+	background-size: cover;
 	
 	
 }
