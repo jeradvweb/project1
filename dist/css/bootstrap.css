@@ -8435,6 +8435,56 @@ a.text-dark:focus, a.text-dark:hover {
   background-size: cover;
 }
 
+.clear-day {
+  background: url(../../dist/images/botwsunny.png) center center;
+  background-size: cover;
+}
+
+.clear-night {
+  background: url(../../dist/images/botwclearnight.png) center center;
+  background-size: cover;
+}
+
+.rain {
+  background: url(../../dist/images/botwrain.png) center center;
+  background-size: cover;
+}
+
+.snow {
+  background: url(../../dist/images/botwsnow.png) center center;
+  background-size: cover;
+}
+
+.sleet {
+  background: url(../../dist/images/botwsnow.png) center center;
+  background-size: cover;
+}
+
+.wind {
+  background: url(../../dist/images/botwsnow.png) center center;
+  background-size: cover;
+}
+
+.fog {
+  background: url(../../dist/images/botwfog.png) center center;
+  background-size: cover;
+}
+
+.cloudy {
+  background: url(../../dist/images/botwcloudy.png) center center;
+  background-size: cover;
+}
+
+.partly-cloudy-day {
+  background: url(../../dist/images/botwcloud.png) center center;
+  background-size: cover;
+}
+
+.partly-cloudy-night {
+  background: url(../../dist/images/botwnightcloudy.png) center center;
+  background-size: cover;
+}
+
 .switchcontainer {
   min-height: 500px;
 }
