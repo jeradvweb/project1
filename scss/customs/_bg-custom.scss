@@ -34,7 +34,7 @@
 }
 
 .clear-night {
-	background: url(../../dist/images/botwclearnight.png) center center;
+	background: url(../../dist/images/botwclearnight2.png) center center;
 	background-size: cover;
 }
 
@@ -49,12 +49,12 @@
 }
 
 .sleet {
-	background: url(../../dist/images/botwsnow.png) center center;
+	background: url(../../dist/images/botwsleet.png) center center;
 	background-size: cover;
 }
 
 .wind {
-	background: url(../../dist/images/botwsnow.png) center center;
+	background: url(../../dist/images/botwwindy.png) center center;
 	background-size: cover;
 }
 
@@ -108,4 +108,21 @@
 .shadowboxinner {
 	box-shadow: inset 2px 2px 5px 3px #170d02;
 
+}
+
+.weathersquare {
+	// background-image: url(../../dist/images/weathersquare.png);
+	max-height: 230px;
+	max-width: 425px;
+	
+
+}
+
+.weathersquarepush {
+	margin: 0 auto;
+}
+
+.lineheightadjust {
+	line-height: 50%;
+	
 }

@@ -25,9 +25,9 @@
 
 				<div class="container switchcontainer py-5 switch">
 
-					<h1 class="display-1 mb-4 text-center mt-5">What to play?
+					<!-- <h1 class="display-1 mb-4 text-center mt-5">What to play?
 
-					</h1>
+					</h1> -->
 
 				</div>
 				
