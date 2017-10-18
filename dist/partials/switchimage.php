@@ -20,9 +20,24 @@
 							<!-- <p class="locationsize textstrokeshadow">
 								Relative Humidity: <?php echo $humidity_current; ?>%
 							</p> -->
+							
+
+							<h2 class=" locationsize textstrokeshadow switchicon-<?php echo $status_currenticon; ?>">
+								
+							</h2>
+
+							
+
 							<p class="locationsize textstrokeshadow">
 								<?php echo $status_current = $status_current; ?>
 							</p>
+
+							<!-- <p class="locationsize textstrokeshadow">
+								<img class="svgcolor" src="icons/<?php echo $status_currenticon; ?>.svg" alt="">
+							</p> -->
+
+							
+
 							<p class="locationsize textstrokeshadow">
 								<?php echo gmdate("l",$whattime); ?>
 							</p>

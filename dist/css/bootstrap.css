@@ -8568,3 +8568,75 @@ a.text-dark:focus, a.text-dark:hover {
 .logocenter {
   margin: 0 auto;
 }
+
+@font-face {
+  font-family: 'switchweather';
+  src: url("../fonts/switchweather.eot?2bfzl0");
+  src: url("../fonts/switchweather.eot?2bfzl0#iefix") format("embedded-opentype"), url("../fonts/switchweather.ttf?2bfzl0") format("truetype"), url("../fonts/switchweather.woff?2bfzl0") format("woff"), url("../fonts/switchweather.svg?2bfzl0#switchweather") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="switchicon-"], [class*=" switchicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'switchweather' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 70px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.switchicon-clear-day:before {
+  content: "\e900";
+  color: #ffffff;
+}
+
+.switchicon-clear-night:before {
+  content: "\e901";
+  color: #ffffff;
+}
+
+.switchicon-cloudy:before {
+  content: "\e902";
+  color: #ffffff;
+}
+
+.switchicon-fog:before {
+  content: "\e903";
+  color: #ffffff;
+}
+
+.switchicon-partly-cloudy-day:before {
+  content: "\e904";
+  color: #ffffff;
+}
+
+.switchicon-partly-cloudy-night:before {
+  content: "\e905";
+  color: #ffffff;
+}
+
+.switchicon-rain:before {
+  content: "\e906";
+  color: #ffffff;
+}
+
+.switchicon-sleet:before {
+  content: "\e907";
+  color: #ffffff;
+}
+
+.switchicon-snow:before {
+  content: "\e908";
+  color: #ffffff;
+}
+
+.switchicon-wind:before {
+  content: "\e909";
+  color: #ffffff;
+}
