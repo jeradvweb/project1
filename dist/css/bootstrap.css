@@ -98,7 +98,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Francois One", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -4492,7 +4492,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Francois One", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -4591,7 +4591,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Francois One", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -8526,7 +8526,11 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .lineheightadjust {
-  line-height: 100%;
+  line-height: 150%;
+}
+
+.lineheightadjust2 {
+  line-height: 50%;
 }
 
 .textstroke {
@@ -8538,7 +8542,15 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .locationsize {
-  font-size: 25px;
+  font-size: 27px;
+}
+
+.locationsizesmall {
+  font-size: 21px;
+}
+
+.extraleading {
+  letter-spacing: 30px;
 }
 
 .floatfloat {
@@ -8567,6 +8579,37 @@ a.text-dark:focus, a.text-dark:hover {
 
 .logocenter {
   margin: 0 auto;
+}
+
+.iconheight {
+  min-height: 200px;
+}
+
+.degreesizeboost {
+  font-size: 120px;
+}
+
+.linkwalk {
+  background: url(../../dist/images/linkwalk.gif) center center no-repeat;
+  min-height: 24px;
+  min-width: 16px;
+}
+
+.degreeframesize {
+  min-height: 200px;
+}
+
+.weathertypesize {
+  min-width: 400px;
+}
+
+.audioplayer {
+  position: absolute;
+  top: 567px;
+  left: 50%;
+  right: 50%;
+  width: 300px;
+  margin-left: -151px;
 }
 
 @font-face {

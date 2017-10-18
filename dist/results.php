@@ -19,15 +19,29 @@
 
 		<!-- End of Nintendo Switch -->
 
+		<!-- REMOVE EXTRA P -->
+		<div class="container mx-auto">
+			<?php 
+				include 'partials/music.php';
+			?>
 
+		</div>
+	
+		
+
+	
+		
+		<!-- End of Audio -->
 
 
 
 
 
 		<!-- Search Again Bar -->
-
-
+		<div class="pb-5 mx-auto linkwalk">
+			<!-- <img src="images/linkwalk.gif" alt="animaged link walking"> -->
+		</div>
+		
 		<p class="lead text-center text-white">Again?</p>
 
 		
@@ -54,19 +68,7 @@
 		
 		<!-- Start of Audio -->
 
-		<!-- REMOVE EXTRA P -->
-		<div class="container mx-auto">
-			<?php 
-				include 'ppartials/music.php';
-			?>
-
-		</div>
-	
 		
-
-	
-		
-		<!-- End of Audio -->
 
 	</div>
 		
