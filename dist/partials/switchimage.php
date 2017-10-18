@@ -1,30 +1,45 @@
 <div class="container movedown">
 			<div class="container switchcontainer <?php echo $forecast["currently"]['icon'];?>">
-				<div class="container py-5 text-white text-center  lineheightadjust">
+				<div class="container py-5 text-white text-center lineheightadjust">
 
-					<div class="weathersquare weathersquarepush ">
+
+
+
+					<div class="weathersquare weathersquarepush pt-4">
 						<!-- <h1 class="display-1 mt-5">Results</h1> -->
-					
+						
+						<div class="floatfloat">
+								<h1 class="display-1  textstrokeshadow">
+									<?php echo round($forecast["currently"]["temperature"]); ?>&deg;
+								</h1>
+						</div>
+
+						
+
+						<div class="floatfloat weatherstats">
+							<!-- <p class="locationsize textstrokeshadow">
+								Relative Humidity: <?php echo $humidity_current; ?>%
+							</p> -->
+							<p class="locationsize textstrokeshadow">
+								<?php echo $status_current = $status_current; ?>
+							</p>
+							<p class="locationsize textstrokeshadow">
+								<?php echo gmdate("l",$whattime); ?>
+							</p>
+						</div>
 					
 						
-						<h1 class="display-1">
-						<?php echo round($forecast["currently"]["temperature"]); ?>&deg;
-						</h1>
-						<p class="display-4">
-						<?php echo $place; ?>
-						</p>
-						<p class="lead">
-						Relative Humidity: <?php echo $humidity_current; ?>%
-						</p>
-						<p class="lead">
-						<?php echo $status_current = $status_current; ?>
-						</p>
-						<p class="lead">
-						<?php echo gmdate("l",$whattime); ?>
-						</p>
-
+						<div class="floatfloat">
+							<p class="locationsize textstrokeshadow">
+							<?php echo $place; ?>
+							</p>
+						</div>
+						
 					</div>
 					
+
+
+
 				</div>
 
 			</div>

@@ -52,11 +52,23 @@
 
 		<!-- End of Search Bar -->
 		
+		<!-- Start of Audio -->
+
+		<!-- REMOVE EXTRA P -->
+		<div class="container mx-auto">
+			<?php 
+				include 'ppartials/music.php';
+			?>
+
+		</div>
+	
+		
+
+	
+		
+		<!-- End of Audio -->
+
 	</div>
-		
-		
-
-
 		
 	
 

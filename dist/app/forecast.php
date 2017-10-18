@@ -43,9 +43,9 @@
   $forecast = json_decode(file_get_contents($forecast), true);
 
 // test array
-        // echo '<pre>';
-        // print_r($forecast);
-        // echo '</pre>';
+         // echo '<pre>';
+         // print_r($forecast);
+         // echo '</pre>';
       
       $humidity_current = $forecast["currently"]["humidity"]*100;
 
@@ -54,5 +54,17 @@ $temp_current = round($forecast["currently"]["temperature"]);
 $humidity_current = $forecast["currently"]["humidity"]*100;
 $status_current = $forecast["currently"]["summary"];
 $whattime = $forecast["currently"]["time"];
+$status_currenticon = $forecast["currently"]['icon'];
 
 
+
+// if($forecast["currently"]['icon'] == 'clear-night'){
+//   include 'partials/music.php';
+// }
+// elseif($forecast["currently"]['icon'] == 'rain'){
+//   include 'partials/music2.php';
+// }
+
+
+// $musicnightplay = include 'partials/music2.php';
+// $musicnight = include 'partials/music.php';

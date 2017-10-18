@@ -13,7 +13,7 @@
 
 
 
-	      	  <a class="navbar-brand  m-0 text-white" href="index.php">Game Table</a>
+	      	  <a class="navbar-brand  m-0 text-white" href="index.php"><img class="logocenter" src="images/applogo.png" alt="weather switch logo" width="179px" height="46px"></a>
 
 
 

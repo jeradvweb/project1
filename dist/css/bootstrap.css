@@ -8526,5 +8526,45 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .lineheightadjust {
-  line-height: 50%;
+  line-height: 100%;
+}
+
+.textstroke {
+  -webkit-text-stroke: 3px black;
+}
+
+.textstrokeshadow {
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.locationsize {
+  font-size: 25px;
+}
+
+.floatfloat {
+  float: left;
+}
+
+.weatherstats {
+  padding-top: 20px;
+}
+
+.weatherframepad {
+  padding-right: 50px;
+}
+
+.locationrelocate {
+  display: inline-block;
+}
+
+.musicplayer {
+  font-size: 20px;
+}
+
+.musicboxsize {
+  max-width: 150px;
+}
+
+.logocenter {
+  margin: 0 auto;
 }
